@@ -15,12 +15,12 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "com.google.inject" % "guice" % "4.0",
       "com.gilt" %% "gfc-logging" % "0.0.3",
-      "org.slf4j" % "slf4j-simple" % "1.7.12",
       "com.gilt" %% "gfc-util" % "0.1.1",
       "com.amazonaws" % "aws-java-sdk" % "1.10.20",
       "com.amazonaws" % "amazon-kinesis-client" % "1.6.1",
       "com.fasterxml.jackson.datatype" % "jackson-datatype-joda" % "2.6.1",
       "com.gilt" %% "jerkson" % "0.6.8",
+      "org.slf4j" % "slf4j-simple" % "1.7.12" % "test",
       "org.scalatest" %% "scalatest" % "2.2.4" % "test",
       "org.mockito" % "mockito-core" % "1.8.5" % "test"
     )
