@@ -3,8 +3,8 @@ import scoverage.ScoverageKeys
 lazy val commonSettings = Seq(
   organization := "com.gilt",
   name := "calatrava-client-library",
-  scalaVersion := "2.11.7",
-  crossScalaVersions := Seq("2.11.7", "2.10.5")
+  scalaVersion := "2.11.12",
+  crossScalaVersions := Seq("2.11.12", "2.10.5")
 )
 
 lazy val root = (project in file("."))
