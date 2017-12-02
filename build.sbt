@@ -1,4 +1,4 @@
-import scoverage.ScoverageSbtPlugin.ScoverageKeys
+import scoverage.ScoverageKeys
 
 lazy val commonSettings = Seq(
   organization := "com.gilt",
