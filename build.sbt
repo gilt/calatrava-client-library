@@ -4,7 +4,7 @@ lazy val commonSettings = Seq(
   organization := "com.gilt",
   name := "calatrava-client-library",
   scalaVersion := "2.11.12",
-  crossScalaVersions := Seq("2.11.12", "2.10.5")
+  crossScalaVersions := Seq("2.11.12", "2.10.7")
 )
 
 lazy val root = (project in file("."))
