@@ -15,7 +15,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "com.google.inject" % "guice" % "4.0",
       "com.gilt" %% "gfc-logging" % "0.0.8",
-      "com.gilt" %% "gfc-util" % "0.1.1",
+      "com.gilt" %% "gfc-util" % "0.2.1",
       "com.amazonaws" % "aws-java-sdk" % "1.10.20",
       "com.amazonaws" % "amazon-kinesis-client" % "1.6.1",
       "com.fasterxml.jackson.datatype" % "jackson-datatype-joda" % "2.6.1",
